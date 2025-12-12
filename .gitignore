@@ -1,20 +1,196 @@
 # Dependencies
-/node_modules
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.gitattributes
+.next
+.next/cache
+.vercel
+.nftout
 
-# Production
-/build
+# Production builds
+build/
+dist/
+*.egg
+*.egg-info/
+.installed.cfg
+*.egg-info/
 
-# Generated files
-.docusaurus
-.cache-loader
-
-# Misc
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 .DS_Store
+Thumbs.db
+
+# Docusaurus
+.docusaurus/
+.sass-cache/
+.sass-cache/*
+.server/
+.server/cache/
+*.tscache
+docs/.vitepress/cache
+docs/.vitepress/dist
+
+# Python
+*.pyc
+__pycache__/
+*.so
+.Python
+env/
+venv/
+.venv/
+.ENV
+.ENV/
+.venv.bak/
+.ENV.bak/
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+.pyup.yml
+.isort.cfg
+.pyre/
+.pytype/
+coverage.xml
+.nox/
+noxfile.py
+__pypackages__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+.ipynb_checkpoints/*
+
+# Environment variables
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+.env.staging.local
+.env.backup
+.env.dev
+.env.prod
+.env.test
+.env.testing
+.env.build
+.env.example
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Icon?
+apidoc/
+apidocs/
+
+# ROS
+devel/
+install/
+build/
+logs/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.pytest_cache/
+.cov/
+
+# Simulation environments
+.gazebo/
+.gazebo_preferences
+.gazebo/client_plugin_paths
+.gazebo/server_plugin_paths
+*.mesh
+*.dae
+*.obj
+*.stl
+*.urdf
+*.sdf
+
+# Generated files
+generated/
+gen/
+output/
+
+# Local configuration
+local/
+config.local.js
+config.local.ts
+*.local.json
+*.local.js
+*.local.ts
+*.local.yaml
+*.local.yml
+
+# Debug
+debug.log
+*.log*
+
+# Coverage
+coverage/
+coverage/lcov-report/
+lcov.info
+*.lcov
+
+# Testing
+test-output/
+test-reports/
+junit.xml
+coverage-final.json
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+
+# Documentation
+docs/_build/
+docs/_static/
+docs/doctrees/
+.sphinx/
+.sphinx-doctrees/
+
+# Editor specific
+*.swp
+*.swo
+*~
+*.tmp
+*~
+.DS_Store
+Thumbs.db
